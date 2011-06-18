@@ -1,4 +1,3 @@
-_Store
 .hg
 .svn
 CVS
@@ -9,3 +8,6 @@ tmp/*
 cache/*
 imagescache/*
 templates_c/*
+.DS_Store
+*~
+*.swp
