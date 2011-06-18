@@ -1,0 +1,11 @@
+_Store
+.hg
+.svn
+CVS
+CVSROOT
+log/*
+tmp/*
+.directory
+cache/*
+imagescache/*
+templates_c/*
