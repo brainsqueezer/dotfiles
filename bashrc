@@ -9,7 +9,7 @@ PATH="$PATH:/usr/local/share/android-sdk-linux_86/tools/"
 EDITOR=vi; export EDITOR
 complete -W http://www.google.com/ firefox
 CDPATH=$HOME
-
+export KMIX_PULSEAUDIO_DISABLE=1
 
 alias wifi='/home/rap/Dropbox/Scripts/wifi/wifi'
 alias mp3carol="ls *.mp3 | while read  FILE; do mpg123 $FILE; done"
@@ -111,6 +111,8 @@ alias prueba='ls; sleep 100'
 alias jsdoc="java -jar
 /home/rap/jsdoc_toolkit-2.3.2/jsdoc-toolkit/jsrun.jar"
 alias google-chrome=" google-chrome --enable-extension-timeline-api"
+alias listening="netstat -lnptu"
+alias freeinodes="tune2fs -l /dev/sda1 | grep Free"
 
 echo ""
 #echo "                   ##############"

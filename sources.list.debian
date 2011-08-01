@@ -1,0 +1,107 @@
+#deb file:/var/cache/apt-build/repository apt-build main
+
+#experimental 
+deb http://ftp.de.debian.org/debian/ experimental main contrib non-free
+#deb-src http://ftp.de.debian.org/debian/ experimental main contrib non-free
+
+#unstable
+deb http://ftp.de.debian.org/debian/ unstable main contrib non-free
+#deb-src http://ftp.de.debian.org/debian/ unstable main contrib non-free
+
+## Debian Testing
+deb http://ftp.de.debian.org/debian/ testing main contrib non-free
+deb-src http://ftp.de.debian.org/debian/ testing main contrib non-free
+
+## Actualizaciones de seguridad testing
+deb http://security.debian.org/ testing/updates main contrib non-free
+deb-src http://security.debian.org/ testing/updates main contrib non-free
+
+#amarok2 & project neon
+#deb http://ppa.launchpad.net/project-neon/ubuntu hardy main
+
+#skype
+deb http://download.skype.com/linux/repos/debian/ stable non-free
+
+# Marillat miror
+deb http://debian.three-dimensional.net/debian-multimedia/ unstable main
+#deb-src http://debian.three-dimensional.net/debian-multimedia/ unstable main
+#deb http://oktan.ls.fi.upm.es/debian-multimedia/ unstable main
+#deb-src http://oktan.ls.fi.upm.es/debian-multimedia/ unstable main
+#deb http://ftp.br.debian.org/debian-multimedia unstable main
+#deb-src http://ftp.br.debian.org/debian-multimedia unstable main
+
+## RareWares/Debian Multi-Media Repository for Unstable - Experimental Staging
+#deb http://www.rarewares.org/debian/packages/experimental/ ./
+
+# beryl
+#deb http://debian.beryl-project.org/ etch main
+#deb-src http://debian.beryl-project.org/ etch main
+
+# compiz-fusion
+# http://download.tuxfamily.org/osrdebian/dists/unstable/compiz-fusion-git/index.html
+#deb http://download.tuxfamily.org/osrdebian unstable compiz-fusion-git
+#deb-src http://download.tuxfamily.org/osrdebian unstable compiz-fusion-git
+
+#librdf
+#deb http://download.librdf.org/binaries/debian/ unstable/
+#deb-src http://download.librdf.org/binaries/debian/ unstable/
+
+# Google Chrome repository
+deb http://dl.google.com/linux/deb/ stable non-free
+
+# Google testing repository
+deb http://dl.google.com/linux/deb/ testing non-free
+#deb http://dl.google.com/linux/deb/ stable main
+
+#enlightenment
+#deb http://edevelop.org/debian/ unstable main
+
+# http://code.google.com/p/labyrinth/
+#deb http://ppa.launchpad.net/mascha/ubuntu gutsy main
+#deb-src http://ppa.launchpad.net/mascha/ubuntu gutsy main
+
+#wicd network manager python
+#deb http://apt.wicd.net debian extras
+
+#ana guerrero
+#deb http://people.debian.org/~ana/kdeplasma-addons/ ./
+
+#kde42
+#deb http://kde42.debian.net/debian/ UNRELEASED main
+
+# plasmoids
+#deb http://amarok2deb.co.cc/debian unstable main
+
+#vlc
+#deb http://download.videolan.org/pub/videolan/debian sid main
+#deb-src http://download.videolan.org/pub/videolan/debian sid main
+
+#virtualbox
+#deb http://download.virtualbox.org/virtualbox/debian lenny non-free
+deb http://download.virtualbox.org/virtualbox/debian squeeze non-free
+
+
+# Opera Browser - Production release
+# deb http://deb.opera.com/opera/ sid non-free
+  
+# Opera Browser - Beta release
+# deb http://deb.opera.com/opera-beta/ sid non-free
+   
+# Opera Browser - Snapshot
+# deb http://deb.opera.com/opera-snapshot/ sid non-free
+
+# NANOLX (KDE tunning)
+# deb http://www.nanolx.org/apt/ excelsior main
+
+#dropbox
+#deb http://linux.getdropbox.com/ubuntu intrepid main
+#deb-src http://linux.getdropbox.com/ubuntu intrepid main
+
+deb http://qt-kde.debian.net/debian experimental-snapshots main
+deb-src http://qt-kde.debian.net/debian experimental-snapshots main
+
+#spotify
+deb http://repository.spotify.com stable non-free
+
+deb http://qt-kde.debian.net/debian experimental-snapshots main
+deb-src http://qt-kde.debian.net/debian experimental-snapshots main
