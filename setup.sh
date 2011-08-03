@@ -11,6 +11,7 @@
 
 git config --global user.name "Ramon Antonio Parada"
 git config --global user.email "ramon@bigpress.net"
+git config --global merge.tool vimdiff
 
 echo Remember to setup github token
 git config --global github.user brainsqueezer
