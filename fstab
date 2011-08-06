@@ -1,0 +1,14 @@
+# /etc/fstab: static file system information.
+#
+# <file system> <mount point>   <type>  	<options>       				<dump>  <pass>
+proc            /proc           proc    	defaults,noatime,nodiratime        		0       0
+/dev/hda1       /               ext3    	defaults,errors=remount-ro,noatime,nodiratime 	0       0
+#/dev/hdb1       /mnt/win        ntfs   	        defaults,uid=1000 	0       1
+/dev/hdb        /media/cdrom   iso9660,udf 	user,noauto,noatime,nodiratime     		0       0
+#/dev/fd0       /media/floppy0  auto    	rw,user,noauto,noatime,nodiratime  		0       0
+#/var/swapfile	swap		swap		defaults,rw					0	0
+none 		/tmp 		tmpfs 		size=2G,nr_inodes=100k,mode=01777 		0 	0
+none 		/var/tmp 	tmpfs 		size=2G,nr_inodes=100k,mode=01777 		0 	0
+#192.168.0.10:/home/rap       /mnt/laptop               nfs     defaults,rsize=8192,wsize=8192,noauto  0       0
+/dev/sda1	/mnt/sata	ext4	defaults,noatime,nodiratime	0	0
+
