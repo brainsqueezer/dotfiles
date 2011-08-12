@@ -52,7 +52,10 @@ deb-src http://security.ubuntu.com/ubuntu natty-security universe
 deb http://security.ubuntu.com/ubuntu natty-security multiverse
 deb-src http://security.ubuntu.com/ubuntu natty-security multiverse
 
-# deb http://repository.spotify.com stable non-free # disabled on upgrade to maverick disabled on upgrade to natty
+
+
+#spotify
+deb http://repository.spotify.com stable non-free
 
 # Google Chrome repository
 # deb http://dl.google.com/linux/deb/ stable non-free # disabled on upgrade to maverick disabled on upgrade to natty
@@ -68,4 +71,13 @@ deb-src http://security.ubuntu.com/ubuntu natty-security multiverse
 #deb ppa:kubuntu-ppa/backports
 #deb ppa:jd-team/jdownloader
 deb http://repository.spotify.com stable non-free
-deb http://extras.ubuntu.com/ubuntu natty main #Third party developers repository
+
+
+
+#autokey desktop automation
+deb http://ppa.launchpad.net/cdekter/ppa/ubuntu natty main
+deb-src http://ppa.launchpad.net/cdekter/ppa/ubuntu natty main
+
+#Third party developers repository
+#deb http://extras.ubuntu.com/ubuntu natty main 
+
