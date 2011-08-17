@@ -1,0 +1,20 @@
+
+# Enlazar en ~/.ssh/config
+
+# very good
+# http://blogs.perl.org/users/smylers/2011/08/ssh-productivity-tips.html
+
+# no tan interesante pero para mas informacion
+# http://aaroncrane.co.uk/2008/04/ssh_faster/
+
+
+ControlMaster auto
+ControlPath /tmp/ssh_mux_%h_%p_%r
+
+ControlPersist 2h
+
+Ciphers arcfour
+
+
+ServerAliveInterval 60
+ServerAliveCountMax 60
