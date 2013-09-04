@@ -3,15 +3,15 @@
 # for examples
 
 DISPLAY=:0.0
-PATH="$PATH:~/Dropbox/Scripts"
-PATH="$PATH:~/JML/bin"
+PATH="$PATH:~/workspace/scripts"
+#PATH="$PATH:~/JML/bin"
 PATH="$PATH:/usr/local/share/android-sdk-linux_86/tools/"
 EDITOR=vi; export EDITOR
 complete -W http://www.google.com/ firefox
 CDPATH=$HOME
 export KMIX_PULSEAUDIO_DISABLE=1
 
-alias wifi='/home/rap/Dropbox/Scripts/wifi/wifi'
+alias wifi='/home/rap/workspace/scripts/wifi/wifi'
 alias mp3carol="ls *.mp3 | while read  FILE; do mpg123 $FILE; done"
 
 
@@ -91,7 +91,7 @@ JAVA_HOME="/usr/lib/jvm/java-6-sun"
 
 # http://publicobject.com/2005/05/stupid-bash-tricks-open-file.html
 alias fopen='find . -iname "*$1*" -print0 | xargs -0i bash -c "echo {} && open {}"'
-alias t='~/Scripts/todo.sh'
+alias t='~/workspace/scripts/todo.sh'
 
 OPENJML="/home/rap/Downloads/jml-20090502"
 alias openjml='java -jar $OPENJML/openjml.jar -classpath . '
@@ -113,6 +113,13 @@ alias jsdoc="java -jar
 alias google-chrome=" google-chrome --enable-extension-timeline-api"
 alias listening="netstat -lnptu"
 alias freeinodes="tune2fs -l /dev/sda1 | grep Free"
+alias myip="curl icanhazip.com"
+
+
+GIT_PS1_SHOWCOLORHINTS="1"
+GIT_PS1_SHOWDIRTYSTATE="1"
+~/workspace/git-prompt.sh
+PS1='[\u@\h \W$(__git_ps1 " (%s)")]\$ '
 
 echo ""
 #echo "                   ##############"
